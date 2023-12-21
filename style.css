@@ -85,3 +85,8 @@ indented-p {
     margin-bottom: 0;
     margin-top: 0; /* Adjust the padding as needed for indentation */
 }
+
+.pj-image img {
+    float: right;
+    width: 175px;
+}
