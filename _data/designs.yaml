@@ -1,18 +1,22 @@
-# - title: "Excel-based Vocabulary Learning Tool"
-#   date: "May 2025"
-#   url: https://drive.google.com/file/d/1GRWUJWjoHZ4kL2Tyj1_eswxz9PwO0tOe/view?usp=drive_link
-#   year: "May 2025"
-#   featured: true
-#   feature-order: 1
-#   feature-title: Excel-based Vocabulary Learning Tool
-#   feature-description: A vocabulary learning tool that utilizes Excel's built-in functions to enhance language learning.
-#   image: /images/featured/excel-vocab.png
-#   cv_description: "Developed a vocabulary learning tool using <b>Excel</b> and <b>VBA programming</b>."
+- title: "Excel-based Vocabulary Learning Tool"
+  date: "November 2025"
+  url: https://drive.google.com/file/d/1Moo9CRmupokWSomxsicwW7k9pdU44Y6Q/view?usp=drive_link
+  # demo: /projects/2025-11-04-Vocab-Learning.md
+  year: "November 2025"
+  featured: true
+  feature-order: 1
+  feature-title: Excel-based Vocabulary Learning Tool
+  feature-description: A vocabulary learning tool that utilizes Excel's built-in functions to enhance language learning.
+  image: /images/featured/excel-vocab.png
+  cv_description: "Developed a vocabulary learning tool using <b>Excel</b> and <b>VBA programming</b><br>
+  - Implemented features such as quizzes, important words list, and progress tracking to enhance vocabulary retention.<br>
+  - Gained experience in <b>Excel functions</b> (dynamic arrays, VLOOKUP, data aggregation, etc.) and VBA programming.
+  - Created a user-friendly dashboard with pie chart, bar chart with reference line, speedometer-gauge chart, etc. for learning progress visualization."
 
 - title: "GCP Prompt Engineering for GPT"
   date: "October 2025"
   code: https://colab.research.google.com/drive/1m4a0W_xzVc5A-s3CeDflsQhZ5cMPgqa7?usp=sharing
-  year: "May 2025"
+  year: "October 2025"
   featured: true
   feature-order: 1
   course: "Deep Learning, Large Language Models"
