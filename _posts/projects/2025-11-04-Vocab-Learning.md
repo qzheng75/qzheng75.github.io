@@ -1,8 +1,17 @@
-# Tageschau Vocabulary Workbook - Instruction Manual
+---
+layout: post
+title: Vocabulary Learning Workbook - Instruction Manual
+categories: projects
+permalink: projects/vocab-learning
+---
+
+<!--more-->
+
+<!-- # Confessions of an "Idea King" -->
 
 ## Why This Workbook?
 
-Learning a new language requires consistent vocabulary practice, but many vocabulary learning tools on the market today are either overcomplicated, require internet connectivity, or lack the flexibility that learners need. The Tageschau Vocabulary Workbook was created to address these limitations by offering:
+Learning a new language requires consistent vocabulary practice, but many vocabulary learning tools on the market today are either overcomplicated, require internet connectivity, or lack the flexibility that learners need. This Excel-based vocabulary learning tool was created to address these limitations by offering:
 
 - **Simplicity First**: A straightforward, no-frills interface that focuses on what matters—learning vocabulary. No unnecessary features or overwhelming menus.
 
@@ -22,15 +31,14 @@ Learning a new language requires consistent vocabulary practice, but many vocabu
 
 - **Full Control**: Your vocabulary data stays on your device. No cloud services, no data sharing, no privacy concerns.
 
-- **German Language Focus**: Specifically designed with German vocabulary in mind, supporting proper word forms and grammatical notations.
+- **Customized Language Forms**: You can add additional notations (e.g. verb conjugation/plural form changes in some languages, preposition for verbs, etc.) flexibly to each word.
 
 ---
 
 ## Getting Started: Access a Clean Workbook
 
-If you'd like to start fresh with an empty workbook (without any sample vocabulary), you can download a clean version here:
+If you'd like to start fresh with an empty workbook (without any sample vocabulary), you can download a clean version [here](https://drive.google.com/file/d/1Moo9CRmupokWSomxsicwW7k9pdU44Y6Q/view?usp=drive_link).
 
-**[Download Clean Workbook Template - LINK PLACEHOLDER]**
 
 Simply download the file, enable macros when prompted, and you're ready to begin building your personalized vocabulary list.
 
@@ -45,12 +53,16 @@ The workbook contains **8 worksheets**, each serving a specific purpose. Some ar
 #### 1. **add_words**
 **Purpose**: Your primary interface for adding new vocabulary entries to your collection.
 
+![Vocabulary management worksheet](../../images/projects/vocab-learning/add_word_workbook.png)
+
 **How to Use**:
-- Enter the German word in the "Word" field
+- Enter the word in the "Word" field
 - Enter the English definition in the "Definition" field
 - Select the appropriate word form from the dropdown (n., v., adj./adv., prep., conj., Phr.)
 - Click the "Add Word" button (macro-enabled) to save the entry
 - The word will automatically be added to your vocab_list with a timestamp
+- Remove entered words by entering its ID (**not the row number in Excel!**) in the "ID" field and click on the "Delete from Vocabulary" button
+- Clean quiz/important word logs with the corresponding buttons
 
 **Important Notes**:
 - You must enable macros for the buttons to work
@@ -61,6 +73,8 @@ The workbook contains **8 worksheets**, each serving a specific purpose. Some ar
 
 #### 2. **Dashboard**
 **Purpose**: Your main visualization hub for tracking learning progress and vocabulary statistics.
+
+![Dashboard](../../images/projects/vocab-learning/dashboard.png)
 
 **What You'll See**:
 - **Summary Statistics**:
@@ -110,16 +124,15 @@ The workbook contains **8 worksheets**, each serving a specific purpose. Some ar
 **Purpose**: A randomized quiz interface for testing your vocabulary knowledge.
 
 **How to Use**:
-- Open this worksheet to see 20 randomly selected vocabulary words
-- Test yourself by covering the definition column and trying to recall meanings
-- Use the macro buttons (if available) to generate new quiz sets
-- Your quiz results can be logged to track performance over time
+- Use "Generate Quiz" button to create a quiz from randomly drawn words in your vocab list
+- Test yourself by covering the definition column and trying to recall meanings. Reveal the answers with the "Show Answers" button
+- Your quiz results can be recorded to track performance over time in the dashboard
 
 **What You'll See**:
 - ID, Word, Definition, and Form columns for each quiz question
-- 20 random entries from your vocabulary list
+- Random entries from your vocabulary list
 
-**User Interaction**: Active testing worksheet—interact freely
+**User Interaction**: Interact only with the buttons on the right.
 
 ---
 
@@ -200,11 +213,7 @@ The workbook contains **8 worksheets**, each serving a specific purpose. Some ar
 **Problem**: Buttons don't work
 - **Solution**: Ensure macros are enabled. Go to File > Options > Trust Center > Trust Center Settings > Macro Settings and select "Enable all macros"
 
-**Problem**: Dashboard shows incorrect data
-- **Solution**: Check that the date range is set correctly. Verify that backend worksheets haven't been modified.
-
-**Problem**: Quiz doesn't refresh
-- **Solution**: Close and reopen the worksheet, or use the "Generate New Quiz" button if available
+*TBA - Under active maintenance*
 
 ---
 
@@ -215,4 +224,4 @@ For questions about enabling macros in Excel, visit:
 
 ---
 
-**Happy Learning! Viel Erfolg beim Deutschlernen! 🇩🇪**
+**Happy Learning!**
