@@ -170,6 +170,20 @@
 	margin-bottom: 0rem;
 }
 
+.pub-figure {
+	margin-top: 0.5rem;
+	margin-bottom: 0.25rem;
+	display: block;
+}
+
+.pub-figure img {
+	display: block;
+	width: 100%;
+	max-width: 30rem;
+	border-radius: 0.5rem;
+	border: $black-05 1px solid;
+}
+
 .pub-misc {
 	font-size: 0.7rem;
 	margin-top: 0.3rem;

@@ -8,6 +8,7 @@
   type: journal
   doi: "10.1021/acs.jcim.6c00826"
   url: "https://doi.org/10.1021/acs.jcim.6c00826"
+  image: /images/featured/stable_md_pub.png
 
 - title: "An Extensive Framework for Preparing Dual-Doppler Radar Measurements for Wake Model Validation: Application to the AWAKEN Large-Scale Field Experiment"
   authors:
@@ -22,3 +23,4 @@
   type: journal
   doi: "10.1063/5.0331761"
   url: "https://doi.org/10.1063/5.0331761"
+  image: /images/featured/awaken_pub.jpeg

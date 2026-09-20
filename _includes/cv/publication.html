@@ -9,6 +9,12 @@
 
 <div class="cv-description"><i>{{ pub.venue }}{% if pub.venue-shorthand %} ({{ pub.venue-shorthand }}){% endif %}{% if pub.volume %}, {{ pub.volume }}{% endif %}, {{ pub.year }}.</i></div>
 
+{% if pub.image %}
+<div class="pub-figure">
+	<a href="{{ pub.url }}"><img src="{{ pub.image }}" alt="Figure from {{ pub.title }}"></a>
+</div>
+{% endif %}
+
 {% if pub.doi %}
 <div class="pub-misc">
 	<a href="{{ pub.url }}"><i class="fas fa-link" aria-hidden="true"></i> doi:{{ pub.doi }}</a>
