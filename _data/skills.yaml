@@ -1,0 +1,38 @@
+- name: Languages
+  items:
+    - Python
+    - Java
+    - SQL
+    - Bash
+
+- name: ML & AI
+  items:
+    - PyTorch
+    - scikit-learn
+    - LLM agents and multi-agent systems
+    - MCP
+    - graph neural networks
+    - NLP
+    - contrastive learning
+    - hyperparameter optimization
+
+- name: Data & Compute
+  items:
+    - Apache Spark (PySpark)
+    - Pandas
+    - NumPy
+    - NetCDF
+    - MongoDB
+    - Tableau
+    - PowerBI
+    - Matplotlib
+    - Seaborn
+    - high-performance computing (SLURM)
+
+- name: Cloud & Tools
+  items:
+    - AWS (ECS, Fargate, Lambda, ECR, S3, Route 53)
+    - Docker
+    - Flask
+    - Git
+    - Linux

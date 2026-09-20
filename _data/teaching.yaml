@@ -1,0 +1,16 @@
+- position: Instructor
+  class: Scientific Computing From Scratch Bootcamp
+  location: Remote
+  year: "Jul. 2024 — Aug. 2024"
+  class-url: https://scotch.wangyq.net
+  description: |
+    Instructor for the 2024 iteration of a free summer bootcamp introducing ~200 science-major students to scientific computing and deep learning with Python and PyTorch. Led the lecture on deep learning and PyTorch fundamentals (autodiff, building MLPs from scratch), and assisted on the lecture covering graph neural networks for molecular applications.
+
+- position: Teaching Assistant
+  class: "CS 1331: Introduction to Object-Oriented Programming"
+  institution: Georgia Institute of Technology
+  institution-url: https://www.gatech.edu/
+  location: "Atlanta, GA"
+  year: "Jan. 2023 — May 2024"
+  description: |
+    Supported a large-enrollment (~500 students per semester) introductory course on object-oriented programming and JavaFX, working with a team of ~25 TAs across four semesters on grading, office hours, and weekly recitations. Served as Q&amp;A forum lead for two semesters, owning homework and exam logistics announcements and coordinating TA responses.

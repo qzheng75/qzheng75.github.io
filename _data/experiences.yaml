@@ -1,40 +1,60 @@
-- institution: Fraunhofer Institute for Wind Energy Systems (IWES)
-  location: "Bremen, Germany"
-  position: Data Analyst Intern
-  group: "Wind Measurement & Characterization"
-  year: "Summer, Fall 2025"
+- institution: Lila Sciences, Inc.
+  location: "Cambridge, MA"
+  position: Machine Learning Intern
+  group: "Physical Sciences, Simulation Team"
+  year: "May 2026 —"
+  year-extra: "Aug. 2026"
   description: |
-    TBA, will update by the end of internship.
-  institution-url: https://www.iwes.fraunhofer.de/en.html
-  group-url: https://www.iwes.fraunhofer.de/de/forschungsspektrum/windmessung.html
-  type: industry
-
-- institution: Leibnitiz Institute for Plant Biochemistry
-  location: "Halle (Saale), Germany"
-  position: Research Scientist
-  group: "Computational Chemistry"
-  year: "Summer 2024"
-  description: |
-    Developing and applying computational methods to study the structure and function of proteins and enzymes.<br>
-    - Spearheaded protein engineering research, establishing scalable and visualizable strategies to investigate protein families of millions of sequences and extract meaningful insights via sequence similarity networks and graph analysis.<br>
-    - Crafted biologically significant data splitting strategies with clustering and evolutionary algorithms, encouraging fair model evaluation and ensuring the reliability of research outcomes.
-  institution-url: https://www.ipb-halle.de/en/
-  group-url: https://www.ipb-halle.de/en/research/bioorganic-chemistry/research-groups/computational-chemistry/
+    Built agentic systems for automated model development in the physical sciences.<br>
+    - Shipped an <b>agentic hyperparameter optimization</b> framework for machine learning interatomic potentials and property-prediction models into internal research infrastructure; tuned models set internal state-of-the-art benchmarks and reached production use.<br>
+    - Developed a <b>multi-agent auto-research system</b> that evolves MLIP architectures by reasoning over model design, proposing new architectures concurrently with in-flight optimization runs for higher experimental throughput than sequential loops.<br>
+    - Validated the system by recovering strong-baseline performance from an underperforming architecture and by extending a model to a property outside its original scope.
+  institution-url: https://www.lila.ai/
   type: industry
 
 - institution: Georgia Institute of Technology
   location: "Atlanta, GA"
-  position: Undergraduate Researcher
-  group: Fung group, CSE
-  year: "Apr. 2023 —"
+  position: Graduate Research Assistant
+  group: Fung Group, CSE
+  year: "May 2023 —"
   year-extra: "Now"
-  mentors: 
+  mentors:
     - Victor Fung
   advisor: true
   description: |
-    Researching the applications of Graph Neural Networks (GNNs) in material science, under the guidance of Assoc. Prof. Victor Fung at Georgia Tech.<br>
-    - Conduct independent research to design more stable machine learning force fields for molecular dynamics simulation.<br>
-    - Obtained proficiency in GNNs, PyTorch, deep learning, and research methodologies.
+    Researching machine learning for materials discovery and simulation in the Fung Group.<br>
+    - Developed a <b>physics-informed pretraining</b> strategy for machine learning interatomic potentials, validated across three chemistries (silica, phosphorus, MPTrj) and three architectures (CGCNN, TorchMD, M3GNet); reduced unphysical molecular dynamics artifacts and improved recovery of AIMD trajectories over regularization baselines. First-author paper in <i>JCIM</i>.<br>
+    - Built a <b>differentiable geometry toolbox</b> exposing structural properties as autograd-optimizable losses and served it to <b>LLM agents over MCP</b>, reaching 87.5% success on 40 natural-language structure-editing tasks; designed a propose-act-feedback multi-agent system that tripled target band gaps on 9/10 inverse-design tasks.<br>
+    - Leading an agentic descriptor-mining project that applies <b>SISSO</b> within an agent framework to discover interpretable descriptors for superconducting critical temperature across ~8,000 conventional superconductors.
   institution-url: https://www.fung-group.org/
   group-url: http://cse.gatech.edu
   type: academic
+
+- institution: Fraunhofer Institute for Wind Energy Systems (IWES)
+  location: "Bremen, Germany"
+  position: Data Engineering Research Intern
+  group: "Wind Energy, Wake Simulation"
+  year: "Aug. 2025 —"
+  year-extra: "Dec. 2025"
+  description: |
+    Prepared multi-instrument field measurements for wake model validation in the AWAKEN project.<br>
+    - Processed a year of <b>TB-scale, multi-instrument</b> wind measurement data (dual-Doppler radar, lidar, disdrometer, met stations) with <b>NetCDF</b> and <b>Spark</b> pipelines to curate benchmark cases.<br>
+    - Invented a <b>local contrast filter</b> to discard cases with unphysical spikes in radar data, identified meteorological and seasonal correlates of the artifacts, and validated that flagged cases showed degraded wind speed and angle accuracy against reference instruments.<br>
+    - Benchmarked two engineering wake models across the full AWAKEN domain (two wind farms, &gt; 100 km<sup>2</sup>) under varying turbulence regimes. First-author paper in <i>JRSE</i>.
+  institution-url: https://www.iwes.fraunhofer.de/en.html
+  group-url: https://www.iwes.fraunhofer.de/de/forschungsspektrum/windmessung.html
+  type: industry
+
+- institution: Leibniz Institute of Plant Biochemistry
+  location: "Halle (Saale), Germany"
+  position: Machine Learning Research Intern
+  group: "Computational Chemistry"
+  year: "May 2024 —"
+  year-extra: "Aug. 2024"
+  description: |
+    Applied machine learning and graph analysis to large protein families.<br>
+    - Explored protein families as <b>sequence similarity graphs</b> with embedding-distance-weighted edges, evaluating graph sparsification, community detection, and centrality metrics to identify functionally important sequences in the cytochrome c and influenza families.<br>
+    - Designed a cluster-based, distance-maximizing <b>data split strategy</b> for non-i.i.d. protein sequences, combining ESM embedding clustering with a surrogate-model-assisted evolutionary search; outperformed random splits and SpanSeq on downstream classification.
+  institution-url: https://www.ipb-halle.de/en/
+  group-url: https://www.ipb-halle.de/en/research/bioorganic-chemistry/research-groups/computational-chemistry/
+  type: industry

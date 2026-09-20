@@ -14,14 +14,14 @@
 
 - name: "AWS Certified Machine Learning - Specialty"
   abbreviation: "MLS-C01"
-  description: "Expertise in building, training, tuning, and deploying machine learning (ML) models on AWS."
+  description: "Advanced certification validating the ability to design, build, and deploy ML solutions on AWS."
   date: "March 2024"
   issuer: "Amazon Web Services"
   desc-url: "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
 
 - name: "AWS Certified Cloud Practitioner"
   abbreviation: "CLF-C02"
-  description: "Foundational, high-level understanding of AWS Cloud, services, and terminology"
-  date: "March 2024"
+  description: "Foundational certification validating knowledge of AWS Cloud concepts, services, security, and pricing"
+  date: "February 2024"
   issuer: "Amazon Web Services"
   desc-url: "https://aws.amazon.com/certification/certified-cloud-practitioner/"

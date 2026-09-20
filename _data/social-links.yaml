@@ -1,8 +1,8 @@
 - id: email
-  description: "qzheng75@gatech.edu"
+  description: "zhengqianyu0227@gmail.com"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:qzheng75@gatech.edu"
+  url: "mailto:zhengqianyu0227@gmail.com"
   on-homepage: true
   cv-group: 1
 
@@ -38,41 +38,18 @@
   on-homepage: false
   cv-group: 1
 
-# - id: scholar
-#   description: "Google Scholar"
-#   color: "#515151"
-#   class: "fa fa-graduation-cap icon"
-#   url: "https://scholar.google.com/citations?user=1w0TLT8AAAAJ&hl=en"
-#   on-homepage: true
-#   cv-group: 2
-
 - id: cv
-  description: CV PDF
+  description: Academic CV PDF
   color: "#ba2818"
   class: "far fa-file-pdf icon"
-  url: "../CV/CV.pdf"
+  url: "../CV/PhD_application_CV.pdf"
   on-homepage: false
   cv-group: 1
 
-- id: cv-EU
-  description: CV (European sytle) PDF
+- id: resume
+  description: Resume PDF
   color: "#ba2818"
   class: "far fa-file-pdf icon"
-  url: "../CV/Qianyu_Zheng_CV_EU_style.pdf"
+  url: "../CV/Qianyu%20Zheng%20-%20Resume.pdf"
   on-homepage: false
   cv-group: 1
-
-- id: cv-DE
-  description: CV (in German) PDF
-  color: "#ba2818"
-  class: "far fa-file-pdf icon"
-  url: "../CV/Qianyu_Zheng_Deutsch_Lebenslauf.pdf"
-  on-homepage: false
-  cv-group: 1
-
-# - id: cv-web
-#   description: CV
-#   color: "#515151"
-#   class: "fa fa-address-card icon"
-#   url: "/cv"
-#   on-homepage: false

@@ -1,0 +1,18 @@
+<div class="cv-left-date">{{ pub.year }}</div>
+<div>{% if pub.url %}<a href="{{ pub.url }}"><b>{{ pub.title }}</b></a>{% else %}<b>{{ pub.title }}</b>{% endif %}</div>
+
+<div class="cv-description cv-authors">
+	{% for person in pub.authors %}
+		{% if person == site.author.name %}<b>{% include person.html person=person %}</b>{% else %}{% include person.html person=person %}{% endif %}{% unless forloop.last %}, {% endunless %}
+	{% endfor %}
+</div>
+
+<div class="cv-description"><i>{{ pub.venue }}{% if pub.venue-shorthand %} ({{ pub.venue-shorthand }}){% endif %}{% if pub.volume %}, {{ pub.volume }}{% endif %}, {{ pub.year }}.</i></div>
+
+{% if pub.doi %}
+<div class="pub-misc">
+	<a href="{{ pub.url }}"><i class="fas fa-link" aria-hidden="true"></i> doi:{{ pub.doi }}</a>
+</div>
+{% endif %}
+
+<div class="cv-spacer"></div>

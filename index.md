@@ -9,7 +9,7 @@ title: Home
 			<img id="intro-image" src="/images/portrait.jpg"></div>
 		<div id="intro-title-text-wrapper">
 			<h1 id="intro-title">Hi, I'm Qianyu Zheng</h1>
-			<div id="intro-subtitle">I'm a Master's Student at Georgia Tech.</div>
+			<div id="intro-subtitle">I'm a Master's Student and Graduate Researcher at Georgia Tech.</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
@@ -19,131 +19,27 @@ title: Home
 			</div>
 		</div>
 	</div>
-	<!-- <hr class="l-middle home-hr"> -->
 	<div id="everything-else" class="l-middle">
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 		<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		Welcome to my personal website! I am an ambitious Master's Computer Science student with specialization in <b>scientific computing</b> at Georgia Institute of Technology. I maintain a perfect 4.0 GPA and own a strong foundation in programming languages like Python and Java, machine learning theory and cloud computing.
+		Welcome to my personal website! I am a Master's student in <b>Computer Science</b> at the Georgia Institute of Technology, where I also earned my B.S. in Computer Science with a perfect 4.0 GPA. I build machine learning systems for scientific problems, with a working foundation in Python, PyTorch, big data tooling, and cloud computing.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		As a researcher, I primarily work on applying computational methods, specifically <b>machine learning</b>, in scientific discoveries of natural science. My current research focuses on leveraging big data mining, machine learning, and high performance computing in <b>computational modeling</b> to answer scientific questions and empower data-driven decision making.
-	</div>
-	<div style="height: 1rem"></div>
-	<!-- <div>
-		I am currently working in the <a href="https://www.fung-group.org/"> Fung group</a> under the instruction of Assistant Professor <a href="https://scholar.google.com/citations?user=2QsddMIAAAAJ"> Victor Fung</a>, Georgia Tech School of Computational Science. My research is supported by the <i>President's Undergraduate Research Awards</i>, a scholarship granted to undergraduate research projects by Georgia Tech.
-	</div> -->
-	<div>
-		I am currently interning as a data analyst at the <a href="https://www.iwes.fraunhofer.de/en.html">Fraunhofer Institute for Wind Energy Systems</a>, where I leverage my expertise in programming, big data manipulation and machine learning on extracting, transforming, and cleaning data from various wind measurement devices. This work establishes a robust foundation for developing advanced wind wake models.
+		As a researcher, I work on <b>AI for science</b> in the <a href="https://www.fung-group.org/">Fung Group</a> at Georgia Tech, advised by Assistant Professor <a href="https://cse.gatech.edu/people/victor-fung">Victor Fung</a>. My research covers <b>machine learning interatomic potentials</b> — making them physically reliable enough for molecular dynamics — and <b>LLM agent systems</b> that edit crystal structures from natural language and search for new materials by inverse design. This work has produced first-author papers in the <i>Journal of Chemical Information and Modeling</i> and the <i>Journal of Renewable and Sustainable Energy</i>.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		My resume (in PDF format) can be viewed <a href="./CV.pdf"> here</a>.
+		Most recently I was a machine learning intern at <a href="https://www.lila.ai/">Lila Sciences</a> in Cambridge, MA, building agentic frameworks for automated model development. Before that I spent a semester at the <a href="https://www.iwes.fraunhofer.de/en.html">Fraunhofer Institute for Wind Energy Systems</a> in Bremen, Germany, turning a year of terabyte-scale, multi-instrument wind measurements into a validated benchmark dataset for wake model evaluation.
+	</div>
+	<div style="height: 1rem"></div>
+	<div>
+		My <a href="/CV/PhD_application_CV.pdf">academic CV</a> and <a href="/CV/Qianyu%20Zheng%20-%20Resume.pdf">resume</a> are available as PDFs.
 	</div>
 	<div style="height: 1rem"></div>
 </div>
 
 <hr class="l-middle home-hr">
-
-<!-- <h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2> -->
-
-<!-- <p class="feature-text">
-	Latest research for fans of human-computer interaction, data visualization, and machine learning.
-</p> -->
-
-{% comment %}
-<div class="cover-wrapper cover-wrapper-3-col l-page">
-	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
-	{% for feature in sortedPublications %}
-		{% if feature.featured == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<br>
-<h2 class="feature-title">Featured <a href="/dissertation">Dissertation Publications</a></h2>
-
-<p class="feature-text">
-	My dissertation contributed interactive interfaces to enable machine learning interpretability at scale and for everyone.
-</p>
-
-<div class="cover-wrapper cover-wrapper-1-col l-text">
-	{% include dissertation/document.html details=false location=home %}
-</div>
-
-<div class="cover-wrapper cover-wrapper-3-col l-page">
-	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
-	{% for feature in sortedPublications %}
-		{% if feature.dissertation == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<br>
-<h2 class="feature-title">Apple <a href="https://developer.apple.com/design/human-interface-guidelines/">Chart Design Guidelines</a></h2>
-
-<p class="feature-text">
-	Guidance and best practices to help designers and developers create the best charts for Apple platforms.
-</p>
-
-<div class="cover-wrapper cover-wrapper-2-col l-middle">
-	{% for feature in site.data.designs %}
-		{% if feature.featured == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<br>
-<h2 class="feature-title">Featured <a href="/cv/#interactive-articles">Interactive Articles</a></h2>
-
-<p class="feature-text">
-	Enhanced reading experiences that demonstrate what's possible when dynamic media are effectively combined.
- 
-</p>
-
-<div class="cover-wrapper cover-wrapper-3-col l-page">
-	{% assign sortedArticles = site.data.articles | where: "featured", true %}
-	{% assign ia = site.categories.papers | where:"permalink", "papers/interactive-articles" %}
-
-	{% assign feature = sortedArticles[1] %}
-	{% include feature.html feature=feature %}
-
-	{% assign feature = sortedArticles[0] %}
-	{% include feature.html feature=feature %}
-
-	{% assign feature = ia[0] %}
-	{% include feature.html feature=feature %}
-</div>
-
-<br>
-<h2 class="feature-title"><a href="https://parametric.press/about">Parametric Press</a></h2>
-
-<p class="feature-text">
-	A born-digital, experimental magazine dedicated to showcasing the expository power of the web.
-</p>
-
-<div class="cover-wrapper cover-wrapper-2-col l-middle">
-	{% assign parametric = site.data.articles | where: "parametric-issue", true %}
-	{% for feature in parametric %}
-		{% include feature.html feature=feature %}
-	{% endfor %}
-</div>
-{% endcomment %}
-
-
-
-[gt]: http://www.gatech.edu "Georgia Tech"
-[cse]: http://cse.gatech.edu "Georgia Tech Computational Science and Engineering"
-[coc]: http://www.cc.gatech.edu "Georgia Tech College of Computing"
-
-[cv]: {{ site.url }}/cv
-[polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[alex]: http://va.gatech.edu/endert/ "Alex Endert"
-[poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"
-[nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"

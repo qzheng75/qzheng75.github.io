@@ -1,5 +1,5 @@
 title: Qianyu Zheng
-tagline: Student at Georgia Tech
+tagline: Master's Student and Researcher at Georgia Tech
 url: https://qzheng75.github.io/
 baseurl: ""
 # gems: [jekyll-paginate]
@@ -16,7 +16,7 @@ sass:
 author:
   name: Qianyu Zheng
   url: https://qzheng75.github.io/
-  email: qzheng75@gatech.edu
+  email: zhengqianyu0227@gmail.com
 
 markdown: kramdown
 highlighter: rouge

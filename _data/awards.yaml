@@ -1,7 +1,11 @@
-- name: President's Undergraduate Research Award
-  description: 'For research project "Accurate and stable machine learning force field for crystal structures"'
-  year: 2024
+- name: Graduate Research Assistantship
+  description: "Funded assistantship supporting full-time research as a Master's student in the Fung Group, Georgia Tech"
+  year: "Aug. 2026 — Now"
+
+- name: President's Undergraduate Research Award (PURA)
+  description: "Competitive, faculty-mentored research award supporting undergraduate research at Georgia Tech"
+  year: "Aug. 2024 — Dec. 2024"
 
 - name: Faculty Honors
-  description: 'For academic excellence with GPA of 4.0'
-  year: "2022 - 2024"
+  description: "Awarded each semester for achieving a 4.0 GPA; received every semester of Bachelor studies"
+  year: "2022 — 2025"
