@@ -2,8 +2,6 @@
 layout: cv
 title: CV
 permalink: cv/
-jsarr:
-- js/scripts.js
 ---
 
 <h1 id="cv-title"><a href="{{ site.url }}">Qianyu Zheng</a></h1>

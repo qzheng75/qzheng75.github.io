@@ -7,8 +7,10 @@ permalink: everything-else/
 ## [Projects][projects]
 Things I do, including research, academic course projects, and miscellaneous interests.
 
+{%comment%}
 ## [Blog][blog]
 Nothing too technical, by and about myself.
+{%endcomment%}
 
 {%comment%}
 ## [Stuff I Use][stuff-i-use]

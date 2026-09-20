@@ -1,4 +1,7 @@
-# Hi, I'm Fred
-I'm a Research Scientist, and this is my Jekyll website.
+# qzheng75.github.io
 
-Run with  `npm run start`
+Qianyu Zheng's personal website, built with Jekyll.
+
+Run locally with `npm run start` (i.e. `bundle exec jekyll serve --livereload`).
+
+The site design is adapted from [Fred Hohman's website](http://www.fredhohman.com) (MIT, see `LICENSE.md`).

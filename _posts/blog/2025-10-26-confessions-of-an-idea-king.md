@@ -3,6 +3,7 @@ layout: post
 title: Confessions of an "Idea King"
 categories: blog
 permalink: blog/idea-king
+published: false
 ---
 
 What is happening inside my mind?

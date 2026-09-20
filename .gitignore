@@ -8,3 +8,4 @@ images/pc
 .jekyll-cache/
 _drafts/
 vendor/bundle/
+**/.DS_Store

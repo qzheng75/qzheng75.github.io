@@ -2,6 +2,7 @@
 layout: page
 title: Blog
 permalink: blog/
+published: false
 ---
 
 <p>Nothing too technical, by and about myself.</p>
