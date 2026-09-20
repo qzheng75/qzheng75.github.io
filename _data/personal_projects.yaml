@@ -1,11 +1,8 @@
 - title: "Plot Visualizer"
   date: "Oct. 2023 - Dec. 2023"
-  # venue: Apple Human Interface Guidelines
   description: Implement a pipeline with computer vision algorithms and machine learning (YOLO and fineuned OCR) to extract data from various forms of scientific plots.
   url: https://devpost.com/software/the-plotters
-  # venue-shorthand: Apple Human Interface Guidelines
   year: "Oct. 2023 - Dec. 2023"
-  # recording: 
   course: HackGT X, 2023
   featured: true
   feature-order: 1
@@ -22,12 +19,9 @@
 
 - title: "Stock Tweet"
   date: "Feb. 2023"
-  # venue: Apple Human Interface Guidelines
   description: A tool tailored for PR teams of companies.
   url: https://devpost.com/software/stocktweet
-  # venue-shorthand: Apple Human Interface Guidelines
   year: "Feb. 2023"
-  # recording: 
   course: Hacklytics, 2022
   featured: true
   feature-order: 2

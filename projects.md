@@ -4,7 +4,7 @@ title: Projects
 permalink: projects/
 ---
 
-Things I do, including research, academic course projects, and miscellaneous interests.
+Research systems and side projects I have built, plus the occasional hackathon.
 
 ## Long-term Projects
 
