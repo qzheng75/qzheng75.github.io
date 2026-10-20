@@ -15,9 +15,9 @@
 </div>
 {% endif %}
 
-{% if pub.doi %}
+{% if pub.doi or pub.arxiv %}
 <div class="pub-misc">
-	<a href="{{ pub.url }}"><i class="fas fa-link" aria-hidden="true"></i> doi:{{ pub.doi }}</a>
+	<a href="{{ pub.url }}"><i class="fas fa-link" aria-hidden="true"></i> {% if pub.doi %}doi:{{ pub.doi }}{% else %}arXiv:{{ pub.arxiv }}{% endif %}</a>
 </div>
 {% endif %}
 

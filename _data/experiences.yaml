@@ -24,8 +24,8 @@
   description: |
     Researching machine learning for materials discovery and simulation in the Fung Group.<br>
     - Developed a <b>physics-informed pretraining</b> strategy for machine learning interatomic potentials, validated across three chemistries (silica, phosphorus, MPTrj) and three architectures (CGCNN, TorchMD, M3GNet); reduced unphysical molecular dynamics artifacts and improved recovery of AIMD trajectories over regularization baselines. First-author paper in <i>JCIM</i>.<br>
-    - Built a <b>differentiable geometry toolbox</b> exposing structural properties as autograd-optimizable losses and served it to <b>LLM agents over MCP</b>, reaching 87.5% success on 40 natural-language structure-editing tasks; designed a propose-act-feedback multi-agent system that tripled target band gaps on 9/10 inverse-design tasks.<br>
-    - Leading an agentic descriptor-mining project that applies <b>SISSO</b> within an agent framework to discover interpretable descriptors for superconducting critical temperature across ~8,000 conventional superconductors.
+    - Built <b>LATHE</b> (LAnguage-driven Toolkit for Hypothesis-based crystal Editing), served to <b>LLM agents over MCP</b> for natural-language-driven crystal structure editing; reached 87.5% success on 40 modification tasks, outperforming Claude Code and toolbox-free baselines, and designed a propose-act-feedback multi-agent system that tripled target band gaps on 9/10 inverse-design tasks. Preprint on <a href="https://arxiv.org/abs/2610.02671">arXiv</a>.<br>
+    - Leading a <b>self-evolving agentic framework</b> that recursively proposes rules for splitting a full materials dataset into physically motivated subclasses, then spawns AutoML agents on each class to mine class-specific descriptors and build closed-form property-prediction formulas with <b>SISSO</b>.
   institution-url: https://www.fung-group.org/
   group-url: http://cse.gatech.edu
   type: academic

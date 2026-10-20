@@ -29,7 +29,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		As a researcher, I work on <b>AI for science</b> in the <a href="https://www.fung-group.org/">Fung Group</a> at Georgia Tech, advised by Assistant Professor <a href="https://cse.gatech.edu/people/victor-fung">Victor Fung</a>. My research covers <b>machine learning interatomic potentials</b> — making them physically reliable enough for molecular dynamics — and <b>LLM agent systems</b> that edit crystal structures from natural language and search for new materials by inverse design. This work has produced first-author papers in the <i>Journal of Chemical Information and Modeling</i> and the <i>Journal of Renewable and Sustainable Energy</i>.
+		As a researcher, I work on <b>AI for science</b> in the <a href="https://www.fung-group.org/">Fung Group</a> at Georgia Tech, advised by Assistant Professor <a href="https://cse.gatech.edu/people/victor-fung">Victor Fung</a>. My research covers <b>machine learning interatomic potentials</b> — making them physically reliable enough for molecular dynamics — and <b>LLM agent systems</b> — most recently <a href="https://arxiv.org/abs/2610.02671">LATHE</a>, a toolkit that lets agents edit crystal structures from natural language and search for new materials by inverse design. This work has produced first-author papers in the <i>Journal of Chemical Information and Modeling</i> and the <i>Journal of Renewable and Sustainable Energy</i>, plus a preprint on arXiv.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>

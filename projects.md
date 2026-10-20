@@ -8,7 +8,7 @@ Research systems and side projects I have built, plus the occasional hackathon.
 
 ## Publications
 
-Peer-reviewed research, both as first author.
+First-author research: two journal papers and a preprint.
 
 <div class="project-spacer-small"></div>
 
